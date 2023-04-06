@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 html,
@@ -257,7 +258,8 @@ a.botonGetStarted:hover {
 }
 
 .boxCallToActions {
-    background-color: #0084C1;
+    /* background-color: #0084C1; */
+    background-color: whitesmoke;
     overflow: hidden;
     position: relative;
     height: auto;
@@ -283,27 +285,29 @@ a.botonGetStarted:hover {
 .callToActions .contenido ul li {
     list-style: none;
     margin-bottom: 12px;
-    color: #E7F0F8;
+    color: #f0f0f;
     font-size: 14px;
+
 }
 
 .contenido {
     width: 50%;
     margin: auto;
     padding-left: 30px;
+    color: #f0f0f;
 }
 
 .contenido h3 {
     font-size: 30px;
     text-align: left;
     margin-bottom: 20px;
-    color: #E7F0F8 ;
+    color: #f0f0f;
 }
 
 .contenido p {
     margin-bottom: 40px;
     width: 80%;
-    color: #E7F0F8;
+    color: #f0f0f;
 }
 
 .boxCardAnimated {
@@ -653,3 +657,7 @@ a.botonGetStarted:hover {
         text-align: center;
     }
 }
+
+
+
+//for comment
